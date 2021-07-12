@@ -1,0 +1,10 @@
+instr = input('input a name: ')
+z = ['Tom', 'Joe', 'John', 'Paul', 'Mike']
+flag = 0
+for s in instr:
+    if s in z:
+      print(s, 'is on the list')
+      flag = 1
+if (flag == 0):
+    print(instr, 'is not on the list')
+
